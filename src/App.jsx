@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-// import Stats from './components/Stats'
+// import Community from './components/Community'
 // import Features from './components/Features'
 // import Services from './components/Services'
 // import Statistics from './components/Statistics'
@@ -11,10 +11,10 @@ import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
-      {/* <Stats />
+      {/* <Community />
       <Features />
       <Services />
       <Statistics />

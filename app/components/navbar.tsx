@@ -48,11 +48,11 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/logo.png"
+              src="/logo2.png"
               alt="Cbreve Logo"
               width={120}
-              height={40}
-              className="h-10 w-auto"
+              height={70}
+              className="h-1/4 w-auto"
             />
           </Link>
 

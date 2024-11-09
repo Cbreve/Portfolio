@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 w-full z-10 px-6 py-4">
+        <nav className="fixed top-0 left-0 w-full z-50 px-6 py-4">
             <div className="max-w-7xl mx-auto flex items-center justify-between text-white">
                 {/* Logo */}
                 <div className="flex items-center gap-2">

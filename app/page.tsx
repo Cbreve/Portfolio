@@ -7,7 +7,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <Hero />
-      <section className="px-4 md:px-16 py-16 flex flex-col gap-8">
+      <section className="py-16 flex flex-col gap-8 px-4 md:px-16 lg:px-28 xl:px-[275px]">
         <div className="flex flex-col md:flex-row items-center gap-2">
           <div className="flex flex-col max-sm:items-center gap-3 w-full">
             <h1 className="text-5xl md:text-[5rem] font-bold">1000 <span className="text-blue-400">+</span></h1>

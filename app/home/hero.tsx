@@ -4,7 +4,8 @@ import './hero.css';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen max-sm:pt-20 max-lg:pt-16 bg-black text-white">
+    <section className="relative min-h-screen max-sm:pt-20 max-lg:pt-16 bg-black text-white hero-background">
+      <div className="grid-overlay"></div>
       <div className="container mx-auto px-4 py-12 md:py-20 flex flex-col items-center justify-center min-h-screen">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center w-full max-w-6xl">
           {/* Text Content */}

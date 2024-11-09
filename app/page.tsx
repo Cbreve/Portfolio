@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Navbar from "./components/navbar";
 import Features from "./home/features";
 import Hero from "./home/hero";

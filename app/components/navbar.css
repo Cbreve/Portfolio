@@ -1,0 +1,13 @@
+.styling{
+    /* background-color: #a3a1a165; */
+    /* width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 20%; */
+    border: #262626 solid 1px;
+    background: #202020;
+}
+
+.bg-custom {
+    background-color: #191919;
+}

@@ -15,7 +15,7 @@ const Hero = () => {
             </p>
             <a 
               href="/services" 
-              className="mt-8 inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 text-lg"
+              className="mt-8 inline-block bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 text-lg"
             >
               Discover Now <span className="inline-block ml-2">→</span>
             </a>

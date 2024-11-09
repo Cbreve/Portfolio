@@ -42,22 +42,22 @@ const Hero = () => {
             <img 
               src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/667d218ce38eb57331b53962_Icon_5.svg"
               alt="Icon 1"
-              className="absolute top-32 left-6 w-6 h-6 md:w-8 md:h-8 z-30 bounce"
+              className="absolute top-32 left-4 w-6 h-6 md:w-8 md:h-8 z-30 bounce"
             />
             <img 
               src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/667d20430bdeb0613eb7260a_Icon_3.svg"
               alt="Icon 2"
-              className="absolute top-16 right-16 w-6 h-6 md:w-8 md:h-8 z-30 bounce"
+              className="absolute top-16 right-8 w-6 h-6 md:w-8 md:h-8 z-30 slide"
             />
             <img 
               src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/667d20e58f08a445ae96240d_Icon_4.svg"
               alt="Icon 3"
-              className="absolute bottom-16 left-16 w-6 h-6 md:w-8 md:h-8 z-30 bounce"
+              className="absolute bottom-16 left-11 w-6 h-6 md:w-8 md:h-8 z-30 slide"
             />
             <img 
               src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/667d1ea1458bb01af5a47b39_Icon_1.svg"
               alt="Icon 4"
-              className="absolute bottom-32 right-6 w-6 h-6 md:w-8 md:h-8 z-30 bounce"
+              className="absolute bottom-32 right-8 w-6 h-6 md:w-8 md:h-8 z-30 slide"
             />
             <img 
               src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/667d1f159491ad7d8138a56e_Icon_2.svg"

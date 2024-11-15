@@ -2,13 +2,14 @@
 import Navbar from "./components/navbar";
 import Features from "./home/features";
 import Hero from "./home/hero";
+import Services from "./home/services";
 
 const HomePage = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <section className="py-16 flex flex-col gap-8 px-4 md:px-16 lg:px-28 xl:px-[275px]">
+      <section className="py-16 flex flex-col gap-8 px-4 md:px-16 lg:px-28">
         <div className="flex flex-col md:flex-row items-center gap-2">
           <div className="flex flex-col max-sm:items-center gap-3 w-full">
             <h1 className="text-5xl md:text-[5rem] font-bold">1000 <span className="text-blue-400">+</span></h1>
@@ -26,6 +27,7 @@ const HomePage = () => {
         <img src="https://cdn.prod.website-files.com/667a83531aa35c93f30b287c/6682bd6dac32e465b9e001fb_team-working-together-project%201.webp" alt="" className="flex items-center justify-center w-full rounded-3xl"/>
       </section>
       <Features />
+      <Services />
     </>
   )
 }

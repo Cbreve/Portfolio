@@ -51,3 +51,13 @@
     background-size: 200px 200px; /* Adjust the size of the grid */
     pointer-events: none; /* Prevent interaction with the grid */
   }
+
+  .swiper {
+    width: 100%;
+    overflow: hidden;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  

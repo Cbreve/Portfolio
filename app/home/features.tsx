@@ -8,7 +8,7 @@ const Features: React.FC = () => {
         <div className='px-6 flex flex-col gap-4 pt-6 max-sm:items-center max-sm:pb-8'>
             <h1 className='text-3xl md:text-5xl font-bold'>Our Key Features</h1>
             <div className="flex items-center gap-6">
-                <button className="border border-blue-400 text-blue-400 hover:bg-blue-700 px-8 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105">
+                <button className="border border-blue-400 text-blue-400 hover:bg-blue-700 hover:text-white px-8 py-3 rounded-full flex items-center gap-2 transition-all duration-300 hover:scale-105">
                     Get in Touch
                     <FaArrowRight className="text-lg -rotate-45" />
                 </button>

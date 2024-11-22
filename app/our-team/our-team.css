@@ -1,0 +1,17 @@
+.grid-pattern {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.244) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.244) 1px, transparent 1px);
+    background-size: 250px 250px;
+}
+
+.grid-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 200px 200px; /* Adjust the size of the grid */
+    pointer-events: none; /* Prevent interaction with the grid */
+  }

@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Features from "./home/features";
 import Hero from "./home/hero";
 import Services from "./home/services";
+import OurTeam from "./our-team/our-team";
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
       </section>
       <Features />
       <Services />
+      <OurTeam />
     </>
   )
 }

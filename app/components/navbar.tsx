@@ -2,6 +2,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { FaArrowRight, FaChevronDown } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
                 {/* Navigation Menu */}
                 <div className="hidden lg:flex items-center gap-2 bg-brand-card/30 backdrop-blur-sm rounded-full px-5 py-3">
                     <div className="flex items-center gap-2 px-4 py-2 hover:text-brand-primary transition-colors cursor-pointer">
-                        <span>Home</span>
+                        <span><Link href="/">Home</Link></span>
                     </div>
                     {/* Company dropdown with hover */}
                     <div 

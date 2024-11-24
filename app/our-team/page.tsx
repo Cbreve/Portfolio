@@ -1,8 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import "./our-team.css";
+import Navbar from '../components/navbar';
 
 const OurTeam = () =>{
     return (
         <div className="overflow-x-hidden">
+            <Navbar />
             <div className="grid-overlay"></div>
     {/* Dark Hero Section with Grid */}
     <div className="bg-brand-dark relative">
